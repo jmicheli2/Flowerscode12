@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660232A469052E5926DE9C55 /* Pods_Flowers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E39D0E3D19173E642CAC75B /* Pods_Flowers.framework */; };
+		C4129A482503BFCB00B44592 /* DrawerContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4129A472503BFCB00B44592 /* DrawerContentViewController.swift */; };
+		C4129A6A2503E3BE00B44592 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4129A692503E3BE00B44592 /* SearchViewController.swift */; };
+		C415DD12255828BA0028A274 /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415DD11255828BA0028A274 /* Capital.swift */; };
+		C415DD1E255843BB0028A274 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C415DD1D255843BB0028A274 /* DetailViewController.swift */; };
+		C42B8F6E25068C380079BBC6 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B8F6D25068C380079BBC6 /* MyCell.swift */; };
 		C43C31352502C67300664F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C31342502C67300664F7C /* AppDelegate.swift */; };
 		C43C31372502C67300664F7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C31362502C67300664F7C /* SceneDelegate.swift */; };
 		C43C31392502C67300664F7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C31382502C67300664F7C /* ViewController.swift */; };
 		C43C313C2502C67300664F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43C313A2502C67300664F7C /* Main.storyboard */; };
 		C43C313E2502C67500664F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43C313D2502C67500664F7C /* Assets.xcassets */; };
 		C43C31412502C67500664F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43C313F2502C67500664F7C /* LaunchScreen.storyboard */; };
+		C4A0DA682545E7BE008FC2D3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A0DA672545E7BE008FC2D3 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014D99993208665026819771 /* Pods-Flowers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flowers.release.xcconfig"; path = "Target Support Files/Pods-Flowers/Pods-Flowers.release.xcconfig"; sourceTree = "<group>"; };
+		8B2020512FA9199C7F539FAD /* Pods-Flowers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flowers.debug.xcconfig"; path = "Target Support Files/Pods-Flowers/Pods-Flowers.debug.xcconfig"; sourceTree = "<group>"; };
+		9E39D0E3D19173E642CAC75B /* Pods_Flowers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flowers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4129A472503BFCB00B44592 /* DrawerContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerContentViewController.swift; sourceTree = "<group>"; };
+		C4129A692503E3BE00B44592 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C415DD11255828BA0028A274 /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
+		C415DD1D255843BB0028A274 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C42B8F6D25068C380079BBC6 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		C43C31312502C67300664F7C /* Flowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43C31342502C67300664F7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43C31362502C67300664F7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		C43C313D2502C67500664F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C43C31402502C67500664F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C43C31422502C67500664F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A0DA672545E7BE008FC2D3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660232A469052E5926DE9C55 /* Pods_Flowers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1218D3018FA9C881075B2ABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E39D0E3D19173E642CAC75B /* Pods_Flowers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3AB21695C14E1608C9779B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B2020512FA9199C7F539FAD /* Pods-Flowers.debug.xcconfig */,
+				014D99993208665026819771 /* Pods-Flowers.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C43C31282502C67300664F7C = {
 			isa = PBXGroup;
 			children = (
 				C43C31332502C67300664F7C /* Flowers */,
 				C43C31322502C67300664F7C /* Products */,
+				C3AB21695C14E1608C9779B7 /* Pods */,
+				1218D3018FA9C881075B2ABE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,29 @@
 		C43C31332502C67300664F7C /* Flowers */ = {
 			isa = PBXGroup;
 			children = (
+				C4A8444125505C2E00FF9B88 /* Storyboards */,
 				C43C31342502C67300664F7C /* AppDelegate.swift */,
 				C43C31362502C67300664F7C /* SceneDelegate.swift */,
 				C43C31382502C67300664F7C /* ViewController.swift */,
-				C43C313A2502C67300664F7C /* Main.storyboard */,
 				C43C313D2502C67500664F7C /* Assets.xcassets */,
-				C43C313F2502C67500664F7C /* LaunchScreen.storyboard */,
 				C43C31422502C67500664F7C /* Info.plist */,
+				C4129A472503BFCB00B44592 /* DrawerContentViewController.swift */,
+				C4129A692503E3BE00B44592 /* SearchViewController.swift */,
+				C42B8F6D25068C380079BBC6 /* MyCell.swift */,
+				C4A0DA672545E7BE008FC2D3 /* MapViewController.swift */,
+				C415DD11255828BA0028A274 /* Capital.swift */,
+				C415DD1D255843BB0028A274 /* DetailViewController.swift */,
 			);
 			path = Flowers;
+			sourceTree = "<group>";
+		};
+		C4A8444125505C2E00FF9B88 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C43C313F2502C67500664F7C /* LaunchScreen.storyboard */,
+				C43C313A2502C67300664F7C /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C43C31452502C67500664F7C /* Build configuration list for PBXNativeTarget "Flowers" */;
 			buildPhases = (
+				839263A25C235910D5EFCF5F /* [CP] Check Pods Manifest.lock */,
 				C43C312D2502C67300664F7C /* Sources */,
 				C43C312E2502C67300664F7C /* Frameworks */,
 				C43C312F2502C67300664F7C /* Resources */,
+				1E85AFFE9982C9CD764594A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,7 +146,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = byrdland;
 				TargetAttributes = {
 					C43C31302502C67300664F7C = {
@@ -133,14 +185,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E85AFFE9982C9CD764594A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flowers/Pods-Flowers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flowers/Pods-Flowers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flowers/Pods-Flowers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839263A25C235910D5EFCF5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flowers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C43C312D2502C67300664F7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C415DD1E255843BB0028A274 /* DetailViewController.swift in Sources */,
+				C4129A6A2503E3BE00B44592 /* SearchViewController.swift in Sources */,
 				C43C31392502C67300664F7C /* ViewController.swift in Sources */,
+				C4129A482503BFCB00B44592 /* DrawerContentViewController.swift in Sources */,
+				C42B8F6E25068C380079BBC6 /* MyCell.swift in Sources */,
 				C43C31352502C67300664F7C /* AppDelegate.swift in Sources */,
 				C43C31372502C67300664F7C /* SceneDelegate.swift in Sources */,
+				C415DD12255828BA0028A274 /* Capital.swift in Sources */,
+				C4A0DA682545E7BE008FC2D3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +292,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +353,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,6 +384,7 @@
 		};
 		C43C31462502C67500664F7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2020512FA9199C7F539FAD /* Pods-Flowers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +395,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.byrdland.Flowers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flowers;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +403,7 @@
 		};
 		C43C31472502C67500664F7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014D99993208665026819771 /* Pods-Flowers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +414,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = eu.byrdland.Flowers;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Flowers;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
